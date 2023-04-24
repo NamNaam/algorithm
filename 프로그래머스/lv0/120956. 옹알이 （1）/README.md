@@ -2,6 +2,10 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120956?language=python3) 
 
+⚠️ 반복문을 사용하기 때문에 바로 빈 문자열로 치환하면 원치 않는 문자열도 치환될 수 있음 -> 특정 문자로 치환 먼저 해야 함
+
+⚠️ replace() 함수를 사용할 때 반드시 변수에다 대입해야 함. 그러지 않으면 변환되지 않음. ex) i.replace(j, '') (X) -> i = i.replace(j, '') (O)
+
 ### 성능 요약
 
 메모리: 10.2 MB, 시간: 0.02 ms

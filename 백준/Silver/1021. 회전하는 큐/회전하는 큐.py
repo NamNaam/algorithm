@@ -16,7 +16,7 @@ for i in arr:
         elif q.index(i) <= len(q) // 2:
             q.rotate(-1)
             cnt += 1
-        else : # elif i > len(q) / 2:
+        else : # elif q.index(i) > len(q) // 2:
             q.rotate(1)
             cnt += 1
             
